@@ -1,11 +1,10 @@
 {
-  "root": "build/",
+  "root": "public/",
   "clean_urls": false,
-  "https_only": true,
   "routes": {
     "**/": "index.html"
   },
-  "headers": {
+   "headers": {
     "/**": {
       "Access-Control-Allow-Origin": "*"
     }
