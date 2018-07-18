@@ -1,0 +1,232 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.container {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.container li {
+    float: left;
+}
+
+.container li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.container li a:hover {
+    background-color: #111;
+} 
+
+form {
+    border: 3px solid #f1f1f1;
+    padding: 50px;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+
+.hidden-field{
+  display: inline-block;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0px auto;
+  position: relative;
+}
+
+.wrapper h1 {
+  text-align: center;
+}
+
+.search-box {
+  width: 100%;
+  margin: 15px auto;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.todo-wrapper {
+  border: 2px solid;
+  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.add-form {
+  margin: 0;
+  padding: 15px;
+  background-image: linear-gradient(#efefef, #eee);
+  clear: both;
+}
+
+.add-form form {
+  background: lightgray;
+  border-radius: 15px;
+}
+
+.add-button {
+  white-space: nowrap;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin-top: 10px;
+  font-size: 15px;
+  color: #fff;
+  background: linear-gradient(#4f93ce, #285f8f);
+  border: 1px solid #285f8f;
+}
+
+.add-todo {
+  width: 80%;
+  padding: 4px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.todo-holder {
+  display: block;
+}
+
+.todo-list {
+  display: inline-block;
+}
+
+.todo-list li {
+  background: grey;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.button-holder {
+  float: right;
+  line-height: 60px;
+}
+
+.delete-button::before {
+  content: '\F1F8';
+}
+
+.delete-button {
+  white-space: nowrap;
+  display: inline-block;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 10px 15px;
+  color: #fff;
+  cursor: pointer;
+  font: normal normal normal 25px/1 FontAwesome;
+  background: linear-gradient(#ff0000, #c41616);
+  border: 1px solid #292929;
+}
+
+.edit-button {
+  white-space: nowrap;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 15px;
+  color: #fff;
+  background-image: linear-gradient(#4f93ce, #285f8f);
+  border: 1px solid #141414;
+}
+
+.edit {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: grey;
+}
+
+.edit span {
+  float: right;
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.edit form {
+  padding: 10px;
+}
+
+.edit form label {
+  padding: 15px;
+}
+
+.edit form input {
+  margin: 10px;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+.pagination {
+    display: inline-block;
+    list-style: none;
+    cursor: pointer;
+}
+
+.pagination li {
+  float: left;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
