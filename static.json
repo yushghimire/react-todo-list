@@ -1,4 +1,12 @@
 {
   "root": "public",
-  "clean_urls": false
+  "clean_urls": false,
+  "routes": {
+    "**/": "index.html"
+  },
+  "headers": {
+    "**/": {
+      "X-Frame-Options": "DENY"
+    }
+  }
 }
