@@ -7,7 +7,7 @@
    "headers": {
     "/**": {
       "Access-Control-Allow-Origin": "*",
-      "Strict-Transport-Security": "max-age=7776000",
+      "Strict-Transport-Security": "max-age=15552000",
       "X-Frame-Options": "DENY"
     }
   }
