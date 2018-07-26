@@ -8,7 +8,8 @@
     "/**": {
       "Strict-Transport-Security": "max-age=15552000",
       "X-Frame-Options": "SAMEORIGIN",
-      "X-Content-Type-Options": "nosniff"
+      "X-Content-Type-Options": "nosniff", 
+      "X-XSS-Protection": "1; mode=block"
     }
   }
 }
